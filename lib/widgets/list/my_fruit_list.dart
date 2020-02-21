@@ -4,10 +4,10 @@ import 'package:provider/provider.dart';
 import '../../models/list.dart';
 import 'add_button.dart';
 
-class MyListFruit extends StatelessWidget {
+class MyFruitList extends StatelessWidget {
   final int index;
 
-  MyListFruit(this.index, {Key key}) : super(key: key);
+  MyFruitList(this.index, {Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

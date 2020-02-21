@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/list/my_list_fruit.dart';
+import '../widgets/list/my_fruit_list.dart';
 import '../widgets/list/my_app_bar.dart';
 
 class MyList extends StatelessWidget {
@@ -17,7 +17,7 @@ class MyList extends StatelessWidget {
           ),
           SliverList(
             delegate: SliverChildBuilderDelegate(
-                (context, index) => MyListFruit(index)),
+                (context, index) => MyFruitList(index)),
           ),
         ],
       ),
