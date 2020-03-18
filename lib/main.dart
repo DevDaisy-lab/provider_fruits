@@ -4,11 +4,11 @@ import 'package:provider/provider.dart';
 
 import './style/my_app_theme.dart';
 
-import './models/cart.dart';
-import './models/list.dart';
+import './models/cart_model.dart';
+import './models/list_model.dart';
 
-import './screens/cart.dart';
-import './screens/list.dart';
+import './screens/cart_screen.dart';
+import './screens/list_screen.dart';
 
 void main() => runApp(MyApp());
 

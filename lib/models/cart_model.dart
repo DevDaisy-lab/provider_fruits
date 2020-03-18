@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 
-import '../models/list.dart';
+import 'list_model.dart';
+import 'fruit_skeleton.dart';
 
 class CartModel extends ChangeNotifier {
   ///The private field backing (list).

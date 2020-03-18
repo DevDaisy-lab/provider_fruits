@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-import '../../models/list.dart';
-import '../../models/cart.dart';
+import '../../models/fruit_skeleton.dart';
+import '../../models/cart_model.dart';
 
 class AddButton extends StatelessWidget {
   final Fruit fruit;

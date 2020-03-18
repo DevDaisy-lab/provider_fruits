@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-import '../../models/cart.dart';
+import '../../models/cart_model.dart';
 
 class CartTotal extends StatelessWidget {
   @override
@@ -15,6 +15,11 @@ class CartTotal extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            //The only required argument of the Consumer widget is the builder.
+            // Builder is a function that is called whenever the ChangeNotifier
+            // changes. (In other words, when you call notifyListeners()
+            // in your model, all the builder methods of all the corresponding
+            // Consumer widgets are called.)
             Consumer<CartModel>(
               builder: (context, cart, child) =>
                   Text('\$${cart.totalPrice}', style: priceStyle),

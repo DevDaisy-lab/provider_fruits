@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/list/my_fruit_item.dart';
-import '../widgets/list/my_app_bar.dart';
+import '../widgets/list_screen/my_fruit_item.dart';
+import '../widgets/list_screen/my_app_bar.dart';
 
 class MyList extends StatelessWidget {
   @override
