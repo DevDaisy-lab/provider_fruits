@@ -1,16 +1,7 @@
 # provider_fruits
 
-A new Flutter application.
+A Flutter app sample, **Provider Fruits**, shows a state management approach using **Provider** package. The app has two separate screens: a list of fruits and a cart. The list of fruits represented by **MyList** widget and the cart represented by **MyCart** widget. The list of fruits screen includes app bar (**MyAppBar**) and a scroling view of many fruit items (**MyFruitItem**). The cart screen includes list of added fruits (**CartList**) and total price os added fruits (**CartTotal).
 
-## Getting Started
+This is **a widget tree** of the **Provider Fruits**app:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](https://github.com/Laura555-p/provider_fruits/blob/master/assets/images/widget_tree1.png)
