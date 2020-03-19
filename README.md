@@ -6,4 +6,9 @@ This is **a widget tree** of the **Provider Fruits** app:
 
 ![](https://github.com/Laura555-p/provider_fruits/blob/master/assets/images/widget_tree1.png)
 
+# A Flutter app structure:
+
+#lib/main.dart
+
+Here a **MultiProvider** is used in order to provide both objects (in this case, **ListModel** and **CartModel**) at once to widget further down the tree.
 
