@@ -36,5 +36,9 @@ A widget **MyFruitItem**, has access to the current state of the list of fruits 
 
 The widgets **AddButton** and **CartList**, have access to the current state of the cart (**CartModel**) via **Provider.of**.
 
+# lib/style/*
+
+This directory contains of the app **Text Style:** ***fontFamily***, ***fontWeight***, ***fontSize*** and ***text color***.
+
 
 
