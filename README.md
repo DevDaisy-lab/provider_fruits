@@ -8,7 +8,10 @@ This is **a widget tree** of the **Provider Fruits** app:
 
 # A Flutter app structure:
 
-#lib/main.dart
+# lib/main.dart
 
+In order to track states of the object, they need to be provided to widget further down the tree.
 Here a **MultiProvider** is used in order to provide both objects (in this case, **ListModel** and **CartModel**) at once to widget further down the tree.
+
+The **ListModel** instance is provided using **Provider**, the **ListModel** never changes so a simple **Provider** here is fully enough.
 
