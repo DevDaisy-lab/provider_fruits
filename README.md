@@ -22,7 +22,7 @@ The **CartModel** instance is provided using a **ChangeNotifierProxyProvider**, 
 
 # lib/models/*
 
-This directory contains the model classes: **ListModel**, **CartModel** and an object **Fruit** skeleton. Two classes (In this case, **ListModel** and **CartModel**) are provided in the main.dart. These classes represents the app state.
+This directory contains the model classes: **ListModel**, **CartModel** and an object **Fruit** skeleton. Two classes (In this case, **ListModel** and **CartModel**) are provided in the main.dart. These classes represent the app state.
 
 # lib/screens/*
 
