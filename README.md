@@ -20,10 +20,21 @@ The **CartModel** instance is provided using a **ChangeNotifierProxyProvider**, 
 1. It will automatically subscribe to changes in **CartModel** (if only this functionality is required simply use **ChangeNotifierProvider**).
 2. It takes the value of a previously provided object (in this case, **ListModel**), and uses it to build the value of **CartModel** (if only this functionality is reiguired simply use **ProxyProvider**).
 
-# list/models/*
+# lib/models/*
 
 This directory contains the model classes: **ListModel**, **CartModel** and an object **Fruit** skeleton. Two classes (In this case, **ListModel** and **CartModel**) are provided in the main.dart. These classes represents the app state.
 
+# lib/screens/*
+
+This directory contains the widgets (**MyList** and **MyCart**) used to construct the two screens of the app with other widgets: a list of fruits and a cart.
+
+# lib/widgets/*
+
+This directory contains widgets (**MyAppBar**, **MyFruitItem**, **AddButton**, **CartList**, and **CartTotal**) used to construct the two screens of the app: a list of fruits and a cart.
+
+A widget **MyFruitItem**, has access to the current state of the list of fruits (**ListModel**) via **Provider.of**.
+
+The widgets **AddButton** and **CartList**, have access to the current state of the cart (**CartModel**) via **Provider.of**.
 
 
 
