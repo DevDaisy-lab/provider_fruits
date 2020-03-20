@@ -15,3 +15,15 @@ Here a **MultiProvider** is used in order to provide both objects (in this case,
 
 The **ListModel** instance is provided using **Provider**, the **ListModel** never changes so a simple **Provider** here is fully enough.
 
+The **CartModel** instance is provided using a **ChangeNotifierProxyProvider**, which combines two types of functionality:
+
+1. It will automatically subscribe to changes in **CartModel** (if only this functionality is required simply use **ChangeNotifierProvider**).
+2. It takes the value of a previously provided object (in this case, **ListModel**), and uses it to build the value of **CartModel** (if only this functionality is reiguired simply use **ProxyProvider**).
+
+# list/models/*
+
+This directory contains the model classes: **ListModel**, **CartModel** and an object **Fruit** skeleton. Two classes (In this case, **ListModel** and **CartModel**) are provided in the main.dart. These classes represents the app state.
+
+
+
+
