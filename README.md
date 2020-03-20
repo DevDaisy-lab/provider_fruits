@@ -13,12 +13,12 @@ This is **a widget tree** of the **Provider Fruits** app:
 In order to track states of the object, they need to be provided to widget further down the tree.
 Here a **MultiProvider** is used in order to provide both objects (in this case, **ListModel** and **CartModel**) at once to widget further down the tree.
 
-The **ListModel** instance is provided using **Provider**, the **ListModel** never changes so a simple **Provider** here is fully enough.
+The **ListModel** instance is provided using **Provider**, the **ListModel** never changes of a simple **Provider** here is fully enough.
 
 The **CartModel** instance is provided using a **ChangeNotifierProxyProvider**, which combines two types of functionality:
 
-1. It will automatically subscribe to changes in **CartModel** (if only this functionality is required simply use **ChangeNotifierProvider**).
-2. It takes the value of a previously provided object (in this case, **ListModel**), and uses it to build the value of **CartModel** (if only this functionality is reiguired simply use **ProxyProvider**).
+1. It will automatically subscribe to changes in **CartModel** (if only this functionality is required simply to use **ChangeNotifierProvider**).
+2. It takes the value of a previously provided object (in this case, **ListModel**), and uses it to build the value of **CartModel** (if only this functionality is required simply to use **ProxyProvider**).
 
 # lib/models/*
 
