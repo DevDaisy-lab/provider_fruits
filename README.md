@@ -26,11 +26,11 @@ This directory contains the model classes: **ListModel**, **CartModel** and an o
 
 # lib/screens/*
 
-This directory contains the widgets (**MyList** and **MyCart**) used to construct the two screens of the app with other widgets: a list of fruits and a cart.
+This directory contains the widgets (**MyList** and **MyCart**) used to construct the two screens of the app with other widgets: ***a list of fruits and a cart***.
 
 # lib/widgets/*
 
-This directory contains widgets (**MyAppBar**, **MyFruitItem**, **AddButton**, **CartList**, and **CartTotal**) used to construct the two screens of the app: a list of fruits and a cart.
+This directory contains widgets (**MyAppBar**, **MyFruitItem**, **AddButton**, **CartList**, and **CartTotal**) used to construct the two screens of the app: ***a list of fruits and a cart***.
 
 A widget **MyFruitItem** has access to the current state of the list of fruits (**ListModel**) via **Provider.of**.
 
