@@ -40,5 +40,10 @@ The widgets **AddButton** and **CartList**, have access to the current state of 
 
 This directory contains of the app **Text Style:** ***fontFamily***, ***fontWeight***, ***fontSize*** and ***text color***.
 
+![](https://github.com/Laura555-p/provider_fruits/blob/master/assets/images/screenshot1.PNG)
+![](https://github.com/Laura555-p/provider_fruits/blob/master/assets/images/screenshot2.PNG)
+![](https://github.com/Laura555-p/provider_fruits/blob/master/assets/images/screenshot3.PNG)
+
+
 
 
