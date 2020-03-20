@@ -1,6 +1,6 @@
 # provider_fruits
 
-A Flutter app sample, **Provider Fruits**, shows a state management approach using the **Provider** package. The app has two separate screens: a list of fruits and a cart. The list of fruits represented by **MyList** widget and the cart represented by **MyCart** widget. The list of fruits screen includes the app bar (**MyAppBar**) and a scrolling view of many fruit items (**MyFruitItem**). The cart screen includes a list of added fruits (**CartList**) and total price of added fruits (**CartTotal**).
+A Flutter app sample, **Provider Fruits**, shows a state management approach using the **Provider** package. The app has two separate screens: ***a list of fruits and a cart***. The list of fruits represented by **MyList** widget and the cart represented by **MyCart** widget. The list of fruits screen includes the app bar (**MyAppBar**) and a scrolling view of many fruit items (**MyFruitItem**). The cart screen includes a list of added fruits (**CartList**) and total price of added fruits (**CartTotal**).
 
 This is **a widget tree** of the **Provider Fruits** app:
 
