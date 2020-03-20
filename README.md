@@ -32,7 +32,7 @@ This directory contains the widgets (**MyList** and **MyCart**) used to construc
 
 This directory contains widgets (**MyAppBar**, **MyFruitItem**, **AddButton**, **CartList**, and **CartTotal**) used to construct the two screens of the app: a list of fruits and a cart.
 
-A widget **MyFruitItem**, has access to the current state of the list of fruits (**ListModel**) via **Provider.of**.
+A widget **MyFruitItem** has access to the current state of the list of fruits (**ListModel**) via **Provider.of**.
 
 The widgets **AddButton** and **CartList**, have access to the current state of the cart (**CartModel**) via **Provider.of**.
 
