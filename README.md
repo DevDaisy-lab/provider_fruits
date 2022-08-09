@@ -40,9 +40,19 @@ The widgets **AddButton** and **CartList**, have access to the current state of 
 
 This directory contains of the app **Text Style:** ***fontFamily***, ***fontWeight***, ***fontSize*** and ***text color***.
 
-![](https://github.com/Laura555-p/provider_fruits/blob/master/assets/images/screenshot1.PNG)
-![](https://github.com/Laura555-p/provider_fruits/blob/master/assets/images/screenshot2.PNG)
-![](https://github.com/Laura555-p/provider_fruits/blob/master/assets/images/screenshot3.PNG)
+# IOS Platform
+<p align="left">
+<img src="https://github.com/CodingFlutter/provider_fruits/blob/master/assets/images/1ios.png" width="300" height="600"/> 
+<img src="https://github.com/CodingFlutter/provider_fruits/blob/master/assets/images/2ios.png" width="300"height="600"/> 
+<img src="https://github.com/CodingFlutter/provider_fruits/blob/master/assets/images/3ios.png" width="300" height="600"/>
+</p>
+
+# Android Platform
+<p align="left" >
+<img src="https://github.com/CodingFlutter/provider_fruits/blob/master/assets/images/1a.png" width="250" height="580" hspace="40"/> 
+<img src="https://github.com/CodingFlutter/provider_fruits/blob/master/assets/images/2a.png" width="250"height="580"/> 
+<img src="https://github.com/CodingFlutter/provider_fruits/blob/master/assets/images/3a.png" width="250" height="580" hspace="40"/>
+</p> 
 
 
 
