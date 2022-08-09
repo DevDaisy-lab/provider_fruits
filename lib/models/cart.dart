@@ -14,7 +14,6 @@ class CartModel extends ChangeNotifier {
   ListModel get list => _list;
 
   set list(ListModel newList) {
-    assert(newList != null);
     assert(_fruitIds.every((id) => newList.getById(id) != null),
         'The list $newList does not have one of $_fruitIds in it.');
     _list = newList;
