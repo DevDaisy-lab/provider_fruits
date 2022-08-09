@@ -4,7 +4,7 @@ A Flutter app sample, **Provider Fruits**, shows a state management approach usi
 
 This is **a widget tree** of the **Provider Fruits** app:
 
-![](https://github.com/Laura555-p/provider_fruits/blob/master/assets/images/widget_tree1.png)
+![](https://github.com/CodingFlutter/provider_fruits/blob/master/assets/images/widget_tree1.png)
 
 # A Flutter app structure:
 
