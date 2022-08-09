@@ -38,7 +38,10 @@ class CartList extends StatelessWidget {
               ),
             )
           : ListTile(
-              leading: Icon(Icons.done),
+              leading: Icon(
+                Icons.done,
+                color: Colors.white,
+              ),
               title: Text(
                 cart.fruits[index].name,
                 style: textTheme5,
