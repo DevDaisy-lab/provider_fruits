@@ -4,11 +4,11 @@ import 'package:provider/provider.dart';
 
 import './style/my_app_theme.dart';
 
-import './models/cart_model.dart';
-import './models/list_model.dart';
+import 'models/cart.dart';
+import 'models/lis.dart';
 
-import './screens/cart_screen.dart';
-import './screens/list_screen.dart';
+import 'screens/cart.dart';
+import 'screens/list.dart';
 
 void main() => runApp(MyApp());
 
@@ -26,10 +26,10 @@ class MyApp extends StatelessWidget {
         /// which calls for the use of ChangeNotifierProvider.
         /// More over CartModel depends on ListModel, so
         /// a ProxyProvider is needed.
-        ChangeNotifierProxyProvider<ListModel, CartModel>(
+        ChangeNotifierProxyProvider<ListModel, CartModel?>(
           create: (context) => CartModel(),
           update: (context, list, cart) {
-            cart.list = list;
+            cart?.list = list;
             return cart;
           },
         ),

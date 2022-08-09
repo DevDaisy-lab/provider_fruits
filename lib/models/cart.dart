@@ -1,11 +1,11 @@
 import 'package:flutter/foundation.dart';
 
-import 'list_model.dart';
-import 'fruit_skeleton.dart';
+import 'lis.dart';
+import 'fruit.dart';
 
 class CartModel extends ChangeNotifier {
   ///The private field backing (list).
-  ListModel _list;
+  late ListModel _list;
 
   ///Internal, private state of the cart. Stores the 'ids' of each fruit.
   final List<int> _fruitIds = [];
